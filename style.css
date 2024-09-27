@@ -1,0 +1,177 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRio8u46aZ7zyicRUtEdG0bMQDNxvzrpv7gzQ&s);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center container with animation */
+.center {
+     
+    background-size: cover;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content towards the top */
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 4px solid black;
+    padding-top: 2rem;
+    animation: fadeIn 1.5s ease; /* Animation added */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px); /* Move up */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
+
+/* Form inputs */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #141414;
+    background-color: transparent;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #5a53d9;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0c0c0c;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #f9f9fa;
+    color: #0d0d0e;
+}
+
+/* Signup text */
+.signup-text {
+    margin-top: 15px;
+}
+
+.signup-text a {
+    color: #5a53d9;
+    text-decoration: none;
+    transition: color 0.3s; /* Hover effect on link */
+}
+
+.signup-text a:hover {
+    color: #0c0c0c;
+}
+
+/* User icon and password icon styling */
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user i {
+    margin-right: 10px;
+    color: #1b1b1b;
+}
+/* Add this CSS for animations */
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  input, button {
+    transition: all 0.3s ease;
+  }
+  
+
+  
+ 
+  
+  a:hover {
+    color: #353535;
+    text-decoration: underline;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+  }
+  
+/* Adjust box size */
+.center {
+    width: 400px;
+    height: 350px;  /* Reduced height */
+    padding: 20px;
+background-image: url(data:image/jpeg;base64,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)
+    ;
+    border-radius: 15px;
+  }
+  .height{
+    height: 450px; 
+  }
+  
+  /* Increase font size */
+  h2 {
+    font-size: 2rem; /* Larger font for the title */
+    margin-bottom: 30px; /* Adjusted spacing */
+  }
+  
+  input {
+    font-size: 1rem;  /* Increased font size for input */
+    padding: 10px;    /* Add padding for a better feel */
+    margin-bottom: 20px; /* More space between fields */
+  }
+  
+  button {
+    font-size: 1.1rem;  /* Slightly larger button text */
+    padding: 12px 20px; /* Increase padding for better button size */
+  }
+  
+  a {
+    font-size: 1rem; 
+    margin-top: 20px;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, button {
+    width: 80%;
+    margin: 10px 0;
+  }
+  
