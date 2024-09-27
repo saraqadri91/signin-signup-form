@@ -24,6 +24,7 @@
         width: 218px;
         z-index: 2;
         border: none;
+        font-size: 11px;
     }
 
     button {
@@ -40,8 +41,84 @@
         border-radius: 40px;
         height: 40px;
         width: 100px;
-    
+    font-size: 10px;
     }
 }
 /* hero section end */
-/* second sec start */
+@media screen and (min-width:992px) {
+    .ul {
+        width: 531px;
+        height: 60px;
+        border-radius: 40px;
+        opacity: 1; /* Change to 1 if you want it visible */
+        background-color: #FEFEFF;
+        transition: opacity 0.3s ease; /* Add transition */
+    }
+}
+
+@media screen and (max-width:922px) {
+    .HER {
+        font-size: 27px;
+    }
+
+    button {
+        padding: 0;
+        background-color: rgb(12, 12, 12);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Add transition */
+    }
+
+    button:hover {
+        background-color: rgb(34, 34, 34); /* Change color on hover */
+    }
+
+    #email {
+        border-radius: 40px;
+        height: 40px;
+        width: 218px;
+        z-index: 2;
+        border: none;
+    }
+
+    .bb {
+        border-radius: 40px;
+        height: 40px;
+        width: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .HER {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+    #email {
+        width: 100%; /* Full width for email input on smaller screens */
+    }
+    /* Additional adjustments as necessary */
+}
+@media screen and (max-width:500px) {
+    #none{
+        display: none;
+    }
+#email{
+    font-size: 8px;
+
+}
+.bb{
+    font-size: 8px;
+}
+
+}
+@media screen and (max-width:375px){
+.nonee{
+    display: none;
+}
+.HER{
+    font-size: 16px !important;
+}
+#px{
+    font-size: 12px;
+}
+}
